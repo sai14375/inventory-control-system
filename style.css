@@ -1,0 +1,94 @@
+/* Full Page Background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+}
+
+/* Glass Card Effect */
+.container, .dashboard {
+    width: 500px;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    color: white;
+    text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Buttons */
+input[type="submit"], button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #00c6ff;
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #00c6ff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: rgba(0,0,0,0.6);
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    background: rgba(255,255,255,0.1);
+}
+
+tr:hover td {
+    background: rgba(255,255,255,0.2);
+}
